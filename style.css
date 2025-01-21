@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+body{
+     font-family: "Quicksand", serif;     
+}
+
+/* Navbar Styles */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 6.256rem;
+    padding-right: 6.256rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-heading{
+    width: 5.72rem;
+    height: 1.331rem;
+    color: rgb(17, 17, 17);
+    font-size: 1.42rem;
+    font-weight: 700;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.42rem;
+}
+.link-1, .link-2, .link-3, .link-4{
+    width: 2.573rem;
+    height: 1.331rem;
+    font-size: 0.8875rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+.link1{
+    color: rgb(254, 163, 1);
+}
+.link-2{
+    color: rgb(1, 172, 253);
+}
+.link-3{
+    color: rgb(5, 212, 223);
+}
+.link-4{
+    color: rgb(93, 88, 239);
+}
+
+.nav-btn{
+    color: rgb(255, 255, 255);
+    font-size: 0.8875rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 13px;
+    background: rgb(254, 163, 1);
+}
+
+.hamburger{
+    margin-top: 13px;
+    display: none;
+}
+
+.nav-hr{
+    display: none;
+    color: orange;
+}
+
+/* Header Section Style */
+#header-section{
+    padding-left: 6.256rem;
+    padding-right: 6.256rem;
+    display: flex;
+}
+
+.header-title{
+    padding-top: 5.413rem;
+    width: 28.4rem;
+    height: 8.120rem;
+    font-size: 2.485rem;
+    font-weight: 700;
+    line-height: 2.706rem;
+}
+.header-orange{
+   color: rgb(254, 163, 1)
+}
+.header-blue{
+    color:rgb(1, 172, 253)
+}
+
+.header-subtitle{
+    width: 28.4rem;
+    height: 2.218rem;
+    color: rgb(17, 17, 17);
+    font-size: 0.8875rem;
+    font-weight: 400;
+    margin-top: -24px;
+}
+
+.header-btn{
+    color: rgb(255, 255, 255);
+    font-size: 0.8875rem;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 13px;
+    background: black
+}
+
+.header-img{
+    width: 100%;
+    max-width: 20.794rem;
+    height: 25.515rem;
+    padding-left: 190px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+/* Media Queries Style */
+@media screen and (max-width: 576px) {
+    .nav-links, .nav-btn{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav-hr{
+        display: block;
+        border: 1px solid orange;
+    }
+
+/* header section style */
+     #header-section{
+        flex-direction: column-reverse;
+        padding-left: 0.1rem;
+        padding-right: 0.1rem;
+     }
+   
+}   
