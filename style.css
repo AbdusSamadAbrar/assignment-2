@@ -60,7 +60,13 @@ img{
 .link-4{
     color: rgb(93, 88, 239);
 }
-
+.link-1:hover,
+.link-2:hover,
+.link-3:hover, 
+.link-4:hover{
+        transform: scale(1.1); 
+        color: pink;
+}
 .nav-btn{
     color: rgb(255, 255, 255);
     font-size: 0.8875rem;
@@ -70,6 +76,32 @@ img{
     border-radius: 8px;
     margin-top: 13px;
     background: rgb(254, 163, 1);
+    cursor: pointer;
+}
+.nav-btn:hover{
+    transform: scale(1.1); 
+}
+.header-btn:hover{
+    transform: scale(1.1); 
+}
+
+.curriculum-content1:hover, .curriculum-content2:hover, .curriculum-content3:hover{
+    transform: scale(1.1);
+}
+
+.siblings:hover, .girls:hover, .boys:hover, .superman:hover, .frnds:hover{
+    transform: scale(1.1);
+}
+
+.stories-btn2:hover{
+    transform: scale(1.1);
+}
+
+.facebook:hover, .google:hover, .twitter:hover, .dribble:hover {
+    transform: scale(1.1);
+}
+
+.icon-img{
     cursor: pointer;
 }
 
