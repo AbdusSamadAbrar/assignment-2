@@ -404,13 +404,123 @@ img{
     margin-top: 13px;
     background: black;
     cursor: pointer;
+    margin-bottom: 2.662rem;
 }
 .stories-btn1{
     padding-top: 2.210rem;
+    padding-bottom: 2.210rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+/* Styles for the Footer */
+
+footer{
+    width: 100%;
+    height: 23.03rem;
+    background: rgb(1, 172, 253);
+}
+.footer-div{
+    padding-top: 5.458rem;
+    margin-bottom: 7.721rem;
+    margin-left: 6.212rem;
+    margin-right: 10.117rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo{
+    display: flex;
+}
+.footer-logoinfo{
+    color: white;
+    margin-top: 1px;
+    width: 9.146rem;
+    height: 3.55rem;
+    font-size: 1.868rem;
+    font-weight: 700;
+}
+.education-info{
+    width: 17.706rem;
+    height: 4.437rem;
+    color: rgb(255, 255, 255);
+    font-size: 0.887rem;
+    font-weight: 400;
+    line-height: 1.109rem;
+    margin-top: 1.583rem;
+    margin-left: 5px;
+}
+.footer-optionh{
+    width: 6.938rem;
+    height: 1.331rem;
+    font-size: 1.065rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.42rem;
+}
+.footer-optionb{
+    list-style: none;
+    margin-bottom: 30px;
+    height: 200px;
+}
+.footer-link{
+    text-decoration: none;
+    color: white;
+}
+.abrar{
+    padding-bottom: 0.8875rem;
+}
+
+.icon-img{
+    display: flex;
+    gap: 0.443rem;
+    margin-top: 1.42rem;
+}
+.icon-info{
+    width: 7.859rem;
+    height: 1.153rem;
+    font-size: 1.153rem;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -495,4 +605,22 @@ img{
    #stories{
     margin-top: 380px;
    }
+   footer{
+    height: 40.03rem;
+   }
+   .footer-div{
+    flex-direction: column;
+   }
+   .footer-optionh{
+    margin-top: 50px;
+   }
+   .abrar{
+    padding-bottom: 0.5rem;
+   }
+   .icon-info {
+    margin-top: -110px;
+   }
+
+
 }   
+
